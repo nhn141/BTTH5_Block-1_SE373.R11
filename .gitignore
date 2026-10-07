@@ -1,0 +1,36 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables & secrets (BẢO VỆ API KEY)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Byte-compiled / cache files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+**/.pytest_cache/
+
+# Traces & runtime logs
+**/traces/*
+!**/traces/.gitkeep
+**/traces/debug.log
+**/debug.log
+
+# Workspace output files
+**/workspace/output/*
+!**/workspace/output/.gitkeep
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
