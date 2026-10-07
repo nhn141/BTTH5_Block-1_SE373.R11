@@ -22,6 +22,7 @@ __pycache__/
 # Traces & runtime logs
 **/traces/*
 !**/traces/.gitkeep
+!**/traces/*case_*.jsonl
 **/traces/debug.log
 **/debug.log
 
